@@ -9,11 +9,19 @@
     "spanish_3_gram_length": 8469
   },
   "test_eval": {
-    "en_on_en": 26.73,
-    "en_on_fr": 58.45,
+    "en_on_en": 26.72,
+    "en_on_fr": 58.46,
     "en_on_tl": 70.54,
-    "en_on_nl": 61.38
+    "en_on_nl": 61.37
   },
-  "test_match": "IndexError('index 0 is out of bounds for axis 0 with size 0')",
+  "test_match": {
+    "df_shape": [
+      256,
+      4
+    ],
+    "en_en_3": 26.72343732561413,
+    "en_tl_3": 70.54399267149334,
+    "en_nl_3": 61.37113582414872
+  },
   "test_generate": "NameError(\"name 'generate' is not defined\")"
 }
